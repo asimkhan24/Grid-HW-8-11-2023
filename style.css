@@ -1,0 +1,99 @@
+
+    .container {
+      width: auto;
+      height: 98vh;
+      display: grid;
+      gap: 15px;
+      grid-template-columns: 2fr 1fr 1.5fr 1fr 60px;
+      grid-template-rows: repeat(8, 1fr);
+    }
+    .col1 {
+      background-color: #97f2ca;
+      grid-row: span 8;
+      font-family: calibri;
+      text-align: center;
+    }
+    .col1 p {
+      text-align: left;
+      margin-left: 20px;
+      margin-left: 100px;
+      color: rgb(59, 129, 135);
+      font-weight: 500;
+    }
+    .col1 h1 {
+      color: rgb(59, 129, 135);
+      margin-top: 200px;
+      margin-left: 100px;
+      font-size: 40px;
+      text-align: left;
+    }
+    .col2 {
+      background-image: url(./img/photo-1503023345310-bd7c1de61c7d.avif);
+      background-size: cover;
+      grid-row: span 4;
+    }
+    .col3 {
+      background-image: url(./img/beautiful-shot-snowy-mountains-with-dark-blue-sky_181624-2640.avif);
+      background-size: cover;
+      grid-row: span 3;
+    }
+
+    .col4 {
+      background-color: #97f2ca;
+      background-image: url(./img/HD-wallpaper-sunrise-over-the-mountain-golden-sunlight-sunset-creek-sky-clouds-mountain-slope-nature-river-sunrise-sunshine-light.jpg);
+      background-size: cover;
+      grid-row: span 2;
+    }
+    .col5 {
+      background-color: #97f2ca;
+    }
+    .col6 {
+      background-color: #97f2ca;
+      background-image: url(./img/photo-1503023345310-bd7c1de61c7d.avif);
+      background-size: cover;
+      grid-row: span 3;
+    }
+    .col7 {
+      background-color: #97f2ca;
+      background-image: url(./img/Mayon-Earth-volcanoes-image-eruption-side-mountain-2009.webp);
+      background-size: cover;
+      grid-row: span 4;
+    }
+    .col8 {
+      background-color: rgb(59, 129, 135);
+      grid-row: span 3;
+    }
+    .col8 h2 {
+      text-align: left;
+      margin-top: 100px;
+      margin-left: 100px;
+      color: #a4f3d1;
+      font-family: calibri;
+      text-transform: uppercase;
+    }
+    .col9 {
+      background-image: url(./img/download.jpeg);
+      background-size: cover;
+      grid-row: span 4;
+    }
+    .col10 {
+      background-color: #97f2ca;
+      background-image: url(./img/photo-1503023345310-bd7c1de61c7d.avif);
+      background-size: cover;
+      grid-row: span 3;
+    }
+    .col11 {
+      background-color: #97f2ca;
+      background-image: url(./img/vjEasRVMEFbfdgAEPkVpu.jpg);
+      background-size: cover;
+      grid-row: span 2;
+    }
+    .col12 {
+      background-color: #97f2ca;
+      background-image: url(./img/92360678.cms);
+      background-size: cover;
+      grid-row: span 2;
+    }
+    .col13 {
+      background-color: #97f2ca;
+    }
